@@ -10,12 +10,11 @@ html {
     scroll-behavior: smoothS;
 }
 
-
 .text-white {
     color: #fff !important;
 }
 
-.mt-8{
+.mt-8 {
     margin-top: 8px !important;
 }
 
@@ -53,11 +52,10 @@ html {
 }
 
 .text-center {
-    text-align: center !important; 
+    text-align: center !important;
 }
 
 #main {
-
 }
 
 #header {
@@ -68,14 +66,12 @@ html {
     height: 46px;
     background-color: #000;
     z-index: 1;
-    
 }
 
 #header .mobile-menu-btn {
     float: right;
     padding: 0 21px;
     color: #fff;
-    
 }
 
 #header .search-btn:hover {
@@ -104,10 +100,8 @@ html {
 }
 
 #header .mobile-menu-btn:hover .menu-icon {
-    color: #000;    
+    color: #000;
 }
-
-
 
 #nav {
     display: inline-block;
@@ -122,7 +116,7 @@ html {
 }
 
 #nav > li > a {
-    color:#fff;
+    color: #fff;
     display: inline-block;
     text-transform: uppercase;
 }
@@ -135,7 +129,7 @@ html {
 }
 
 #nav > li:hover > a,
-#nav .subnav li:hover a   {
+#nav .subnav li:hover a {
     color: #000;
     background-color: #ccc;
 }
@@ -174,7 +168,7 @@ html {
     padding: 0 21px;
     display: block;
 }
- 
+
 #header .search-btn:hover {
     background-color: #f44336;
     cursor: pointer;
@@ -183,12 +177,12 @@ html {
 #slider {
     position: relative;
     margin-top: 46px;
-    background: url('/asset/img/slider/ny.jpg') top center / cover no-repeat;
+    background: url("/asset/img/slider/ny.jpg") top center / cover no-repeat;
     padding-top: 50%;
 }
 
 #slider .text-content {
-    position: absolute;  
+    position: absolute;
     bottom: 47px;
     color: #fff;
     width: 100%;
@@ -205,8 +199,8 @@ html {
     margin-top: 25px;
 }
 
-#content .content-section{
-    width: 800px;   
+#content .content-section {
+    width: 800px;
     margin-left: auto;
     margin-right: auto;
     padding: 64px 0;
@@ -217,6 +211,7 @@ html {
     font-size: 30px;
     font-weight: 500;
     letter-spacing: 4px;
+    color: red;
 }
 #content .section-sub-heading {
     text-align: center;
@@ -230,7 +225,6 @@ html {
     line-height: 1.4;
     font-size: 15px;
     text-align: justify;
-
 }
 
 #content .members-list {
@@ -279,10 +273,10 @@ html {
 }
 
 .ticket-list .quantity {
-    float: right ;
+    float: right;
     width: 24px;
     height: 24px;
-    background-color:#000;
+    background-color: #000;
     color: #fff;
     border-radius: 50%;
     text-align: center;
@@ -293,13 +287,11 @@ html {
 .places-list {
     margin-top: 16px;
     /* margin-bottom: 48px; */
-    
 }
 
-
 .place-img {
-    display: block;  
-    width: 100%;  
+    display: block;
+    width: 100%;
 }
 
 .place-img:hover {
@@ -309,7 +301,6 @@ html {
 .place-content {
     background-color: #fff;
     padding: 15px;
-
 }
 
 .place-heading {
@@ -345,9 +336,9 @@ html {
 .col-full {
     width: 100%;
 }
- 
+
 .contact-content {
-    margin-top: 48px;   
+    margin-top: 48px;
 }
 
 .contact-info {
@@ -376,7 +367,6 @@ html {
     display: block;
 }
 
-
 .btn {
     border: none;
     padding: 10px 16px;
@@ -384,7 +374,6 @@ html {
     border: none;
     background-color: #000;
     color: #fff;
-
 }
 
 .btn:hover {
@@ -406,14 +395,13 @@ html {
 .socials-list a {
     color: rgba(0, 0, 0, 0.6);
     text-decoration: none;
-
 }
 
 .socials-list a:hover {
     color: rgba(0, 0, 0, 0.4);
 }
 
-#footer .copyright{
+#footer .copyright {
     margin-top: 15px;
     color: rgba(0, 0, 0, 0.6);
 }
@@ -425,5 +413,3 @@ html {
 #footer .copyright a:hover {
     color: rgba(0, 0, 0, 0.4);
 }
-
-
